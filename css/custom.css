@@ -1,0 +1,113 @@
+.nav-item>a {
+  color: #EAC361 !important;
+}
+
+.nav-link {
+  opacity: 0.6;
+}
+
+.active {
+  opacity: 1;
+}
+
+.title-underline {
+  text-decoration: underline;
+  color: #EAC361 !important;
+}
+
+.title-nonedec {
+  text-transform: lowercase;
+  opacity: 0.1;
+  font-size: 60px;
+}
+
+.career {
+  text-transform: lowercase;
+  font-size: 60px;
+}
+
+.name-primary {
+  font-size: 30px;
+  opacity: 0.2;
+}
+
+.education {
+  padding-bottom: 30px;
+}
+
+.skill-progress {
+  width: 80%;
+  margin: auto;
+}
+
+.skill-progress label {
+  margin-bottom: 0px;
+}
+
+.progress {
+  margin-bottom: 10px;
+}
+
+.bg-warning {
+  background-color: #EAC361!important;
+}
+
+.resume-box {
+  border: 1px solid;
+  border-color:rgba(0, 0, 0, 0.1);
+  border-top: none;
+  width: 50%;
+  margin: auto;
+}
+
+.resume-box:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 50px #888;
+  transition: box-shadow 1s;
+}
+
+.resume-date {
+  width: 10px;
+}
+
+.resume-content h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.mb-5, .my-5 {
+  margin-bottom: 0rem!important;
+}
+
+.resume-box .col-md-4 {
+  text-align: center;
+}
+
+.special-logo img {
+  margin-top: 20px;
+}
+
+.list-inline {
+  margin-top: 20px;
+}
+
+.img-profile {
+  margin-top: 50px;
+}
+
+#contact h1 {
+  margin-bottom: 20px;
+}
+
+.contact-icon {
+  margin-top: 40px;
+}
+
+.interest-icon {
+  margin: 0px 20px;
+}
+
+.interest-icon:hover {
+  cursor: pointer;
+  color: #EAC361;
+}
