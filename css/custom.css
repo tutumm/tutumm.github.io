@@ -122,6 +122,41 @@
   color: #EAC361;
 }
 
+.thai-font {
+  font-family: 'Kanit', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.modal-body {
+  padding-bottom: 0px;
+}
+
+.modal-footer {
+  border-top: none;
+  margin: auto;
+}
+
+.btn-primary {
+  background-color: #EAC361;
+  border-color: transparent;
+}
+
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: #EAC361;
+  border-color: transparent;
+}
+
+.btn-primary:focus{
+  outline: none !important;
+  border-color: transparent !important;
+}
+
+.read-more {
+  color: #EAC361;
+}
+
 @media (max-width: 768px) {
   .bg-primary {
     background-color: #EAC361
@@ -137,8 +172,12 @@
     margin: auto;
   }
 
-  .resume-box {
+  .resumes {
     width: 90%;
+  }
+
+  .resume-box {
+    width: 100%;
   }
 
   .resume-box .row {
@@ -167,8 +206,12 @@
     margin: auto;
   }
 
+  .resumes {
+    width: 80%;
+  }
+
   .resume-box {
-    width: 90%;
+    width: 100%;
   }
 
   .resume-box .row {
