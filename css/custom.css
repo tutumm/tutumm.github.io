@@ -56,8 +56,12 @@
   border: 1px solid;
   border-color:rgba(0, 0, 0, 0.1);
   border-top: none;
-  width: 50%;
+  width: 70%;
   margin: auto;
+}
+
+.resume-box .row {
+  margin: 0px 10px;
 }
 
 .resume-box:hover {
@@ -110,4 +114,62 @@
 .interest-icon:hover {
   cursor: pointer;
   color: #EAC361;
+}
+
+@media (max-width: 768px) {
+  .bg-primary {
+    background-color: #EAC361
+  }
+
+  .nav-item>a {
+    color: white !important;
+    opacity: 0.9;
+  }
+
+  .profile-block {
+    width: 80%;
+    margin: auto;
+  }
+
+  .resume-box {
+    width: 90%;
+  }
+
+  .resume-box .row {
+    margin: 0px 10px;
+  }
+
+  .resume-date {
+    width: 100%;
+  }
+
+
+ }
+
+ @media (max-width: 1024px) {
+  .bg-primary {
+    background-color: #EAC361
+  }
+
+  .nav-item>a {
+    color: white !important;
+    opacity: 0.9;
+  }
+
+  .profile-block {
+    width: 80%;
+    margin: auto;
+  }
+
+  .resume-box {
+    width: 90%;
+  }
+
+  .resume-box .row {
+    margin: 0px 10px;
+  }
+
+  .resume-date {
+    width: 100%;
+  }
 }
