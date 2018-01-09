@@ -8,6 +8,16 @@
   <meta name="description" content="Sakan Komolvatin's Portfolio Website">
   <meta name="author" content="Sakan Komolvatin">
 
+  <meta property="fb:app_id" content="143368639660355">
+  <meta property="og:url" content="https://tutumm.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sakan Komolvatin">
+  <meta property="og:image" content="http://example.com/image.jpg">
+  <meta property="og:description" content="Sakan Komolvatin's Portfolio Website">
+  <meta property="og:site_name" content="Sakan Komolvatin's Portfolio">
+  <meta property="og:locale" content="en_US">
+  <meta property="article:author" content="Sakan Komolvatin">
+
   <title>Sakan komolvatin</title>
 
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,6 +34,24 @@
 </head>
 
 <body id="page-top">
+    <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '143368639660355',
+            xfbml      : true,
+            version    : 'v2.11'
+          });
+          FB.AppEvents.logPageView();
+        };
+      
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "https://connect.facebook.net/en_US/sdk.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
